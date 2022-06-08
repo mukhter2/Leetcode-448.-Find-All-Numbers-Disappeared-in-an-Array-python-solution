@@ -13,6 +13,12 @@ n == nums.length
 1 <= n <= 105
 1 <= nums[i] <= n
 ## Methodology
+### For regular solution:
 Step 1: Create a counting array with length of n+1, where n is the size of the nums
 Step 2: Loop through the counting array to check if any index has no count ad store them into another list
 Step 3: Return the list
+
+### For Upgraded solution:
+Step 1: Loop through the input array and provide negative value on the indexes similar to the value of input array
+Step 3: Create a list comprehension where only positive numbers will be stored
+
